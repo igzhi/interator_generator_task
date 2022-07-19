@@ -25,3 +25,7 @@ class FlatIterator:
 if __name__ == '__main__':
     for elem in FlatIterator(nested_list):
         print(elem)
+
+    # if type(self.list[self.counter]) == list:
+    #     for item in FlatIterator(self.list[self.counter]):
+    #         print(item)
