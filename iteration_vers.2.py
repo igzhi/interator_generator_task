@@ -20,3 +20,9 @@ class FlatIterator:
 if __name__ == '__main__':
     for elem in FlatIterator(nested_list):
         print(elem)
+
+nested_items = []
+for item in FlatIterator(nested_list):
+    nested_items.append(item)
+
+print(nested_items)
